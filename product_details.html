@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Products Details- Store Comm</title> 
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    
+    <body>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="/__/firebase/8.3.2/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="/__/firebase/8.3.2/firebase-analytics.js"></script>
+
+        <!-- Initialize Firebase -->
+        <script src="/__/firebase/init.js"></script>
+        
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/Homlogo.png" width="125px">
+                    </div>
+        
+                    <nav>
+                        <ul id="menu-items">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contacts</a></li>
+                            <li><a href="">Accounts</a></li>                
+                        </ul>            
+                    </nav>
+                    <img src="images/hat.png" width="30px" height="30px">
+                    <img src="images/menulogo.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+                
+            </div>       
+       
+        <!----------Single products details---------------->
+        
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/clad%20-o.jpg" width="100%" id="product-img">
+                    
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/clad%20-o.jpg" width="100%" class="small-img">
+                        </div>
+                         <div class="small-img-col">
+                            <img src="images/bag-0.jpg" width="100%" class="small-img">
+                        </div>
+                         <div class="small-img-col">
+                            <img src="images/watch3.jpg" width="100%" class="small-img">
+                        </div>
+                         <div class="small-img-col">
+                            <img src="images/watch2.jpg" width="100%" class="small-img">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-2">
+                    <p>Home / Shirt</p>
+                    <h1>Black designer Shirt by Ghetto designers</h1>
+                    <h4>$55.00</h4>
+                    
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add to cart</a>
+                    
+                    <h3>Product details<i class="fa fa-indent"></i></h3>
+                    <br> <br>
+                    <p>Give your summer wardrobe a style upgrade with the Ghetto designer's shirts. Team it with a pair of pants for your outfits for classy official meetings and interviews.</p>
+                </div>
+            </div>
+        </div>
+        <!------------title------------>
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p>View Mode</p>
+            </div>
+        </div>
+        <!-------------products----------->
+        <div class="small-container">             
+            <div class="row">                
+                <div class="col-4">
+                    <img src="images/belt.jpg" width="250px" height="300px">
+                    <h2>Vintage Bags</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>   
+                    </div>
+                    <p>$90.0</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/cap.jpg" width="250px" height="300px">
+                    <h2>Vintage Bags</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>   
+                    </div>
+                    <p>$90.0</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/cap2.jpg" width="250px" height="300px">
+                    <h2>Vintage Bags</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>   
+                    </div>
+                    <p>$90.0</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/sneakers.jpg" width="250px" height="300px">
+                    <h2>Vintage Bags</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>   
+                    </div>
+                    <p>$90.0</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--------------------footer----------------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our app</h3>
+                        <p>Download our special application from IoS stores</p>
+                        <div class="app-logo">
+                            <img src="images/retreat.jpg">
+                            <img src="images/retreat.jpg">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/hat.png">
+                        <p>Our purpose is to make the pleasure and bbenefits of sports accessible to many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&copy;Copyright 2020 - Jambazz Solutions</p>
+                
+            </div>
+        </div>
+        
+        <!-----------script for toggling menu--------------->
+        <script>
+            var menuitems = document.getElementById("menu-items");
+            
+            menuitems.style.maxHeight = "0px";
+            
+            function menutoggle(){
+                if(menuitems.style.maxHeight == "0px"){
+                    menuitems.style.maxHeight = "200px";
+                }
+                else{
+                    menuitems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        
+        <!----------js for product gallery--------------->
+        <script>
+            var ProductImg = document.getElementById("product-img");
+            var smallImg = document.getElementsByClassName("small-img");
+            
+            smallImg[0].onclick = function(){
+                ProductImg.src = smallImg[0].src;
+            }
+            
+            smallImg[1].onclick = function(){
+                ProductImg.src = smallImg[1].src;
+            }
+            
+            smallImg[2].onclick = function(){
+                ProductImg.src = smallImg[2].src;
+            }
+            
+            smallImg[3].onclick = function(){
+                ProductImg.src = smallImg[3].src;
+            }
+        </script>
+    </body>
+    
+    
+</html>
